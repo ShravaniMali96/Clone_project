@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first webpage project</title>
+    <link rel="stylesheet" href="CSS\style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="main-header">
+            <div class="logo">
+                <img src="shop_logo.png" alt="Online shop" height="70px">
+            </div>
+            <div class="search-bar">
+                <form action="" method="get">
+                    <input type="search" name="search" placeholder="Search...">
+                    <button type="submit">Search </button>
+                </form>
+            </div>
+        </header>
+        <nav class="main-menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <section class="gmap">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241317.14571458558!2d72.71637318028604!3d19.082177512541442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c6306644edc1%3A0x5da4ed8f8d648c69!2sMumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1737477177443!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <section class="contact-details">
+            <div class="contact-form">
+                <form action="" method="post">
+                    <label for="c-name">
+                        Name:
+                        <input type="text" name="c-name" id="c-name" placeholder="Name">
+                    </label>
+                    <label for="c-email">
+                        E-mail:
+                        <input type="email" name="c-email" id="c-email" placeholder="E-mail">
+                    </label>
+                    <label for="c-phone">
+                        Phone:
+                        <input type="tel" name="c-phone" id="c-phone" placeholder="Phone">
+                    </label>
+                    <label for="c-message">
+                        Message:
+                        <textarea name="c-message" id="c-message" cols="30" rows="5"></textarea>
+                    </label>
+                    <button type="submit">Send message</button>
+                </form>
+            </div>
+            <div class="time-contact">
+                <h3>Timings:</h3>
+                <p><strong>Mon - Sat</strong> <time datetime="09:00">09:00AM</time> - <time datetime="17:00"></time>05:00PM</time></p>
+                <hr>
+                <h3>Contact</h3>
+                <p><a href="abc@gmail.com">abc@gmail.com</a></p>
+            </div>
+        </section>
+        <section class="footer-widget-holder">
+            <div class="footer-widget">
+                <a href="#">
+                    <img src="shop_logo.png" alt="Online shop" height="70px">
+                </a>
+                <h3>Adress</h3>
+                <address>
+                    Mumbai,Maharashtra
+                </address>
+            </div>
+            <div class="footer-widget">
+                <h4>Sitemap</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </section>
+        <footer class="site-footer">
+            <p><small>Copyright &copy; 2025</small></p>
+        </footer>
+    </div>
+</body>
+</html>
